@@ -46,7 +46,7 @@ const Header = () => {
           >
             <span className="text-2xl font-bold text-purple-600">Nodaysoff</span>
             <a href="tel:+918858484220" className="ml-4 text-purple-600 font-medium md:hidden">
-              +91 8858484220
+            +91 7014362177
             </a>
           </div>
 
