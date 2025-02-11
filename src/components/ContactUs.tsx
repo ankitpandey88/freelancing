@@ -28,7 +28,7 @@
 //               </div>
 //               <div className="ml-4">
 //                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Email</h3>
-//                 <p className="text-gray-600">info@martvalley.com</p>
+//                 <p className="text-gray-600">info@Nodaysoff.com</p>
 //               </div>
 //             </div>
 

@@ -28,7 +28,7 @@
 //       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
 //         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 //           <div>
-//             <h3 className="text-2xl font-bold text-white mb-4">MartValley</h3>
+//             <h3 className="text-2xl font-bold text-white mb-4">Nodaysoff</h3>
 //             <p className="text-gray-400">
 //               Empowering businesses with innovative software solutions and cutting-edge technology.
 //             </p>
@@ -80,7 +80,7 @@
 
 //         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
 //           <p className="text-gray-400">
-//             © {new Date().getFullYear()} MartValley. All rights reserved.
+//             © {new Date().getFullYear()} Nodaysoff. All rights reserved.
 //           </p>
 //         </div>
 //       </div>
@@ -113,7 +113,7 @@ function Footer() {
         {/* Company Info Section */}
         <div className="text-center lg:text-left space-y-2">
           <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-black via-gray-800 to-purple-600">
-            MARTVALLEY
+            Nodaysoff
           </h1>
           <p className="text-lg font-medium text-gray-700">
           Custom Software Development Services For Businesses.
@@ -188,7 +188,7 @@ function Footer() {
       {/* Copyright Section */}
       <div className="mt-6 pt-2 text-center">
         <p className="text-sm font-medium text-gray-800">
-          &copy; {new Date().getFullYear()}  MARTVALLEY. All Rights Reserved.
+          &copy; {new Date().getFullYear()}  Nodaysoff. All Rights Reserved.
         </p>
       </div>
 

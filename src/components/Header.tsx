@@ -44,7 +44,7 @@ const Header = () => {
             className="flex-shrink-0 cursor-pointer flex items-center"
             onClick={() => navigate('/')}
           >
-            <span className="text-2xl font-bold text-purple-600">MartValley</span>
+            <span className="text-2xl font-bold text-purple-600">Nodaysoff</span>
             <a href="tel:+918858484220" className="ml-4 text-purple-600 font-medium md:hidden">
               +91 8858484220
             </a>

@@ -10,7 +10,7 @@ const Highlight = () => {
             Pushing The Business Boundaries By Innovative Solutions
           </h2>
           <p className="text-lg mb-8 text-indigo-100">
-            Here at Martvalley Services, we specialize in challenging the limits through custom software development services tailored to suit your business. Addressing the diverse needs of our clients is our primary forte.
+            Here at Nodaysoff Services, we specialize in challenging the limits through custom software development services tailored to suit your business. Addressing the diverse needs of our clients is our primary forte.
           </p>
           <button className="inline-flex items-center px-6 py-3 border-2 border-white rounded-md text-base font-medium hover:bg-white hover:text-indigo-600 transition-colors duration-200">
             Learn More
