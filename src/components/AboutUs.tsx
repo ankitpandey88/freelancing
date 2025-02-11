@@ -39,7 +39,7 @@ const AboutUs = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50" id="about">
+    <section className="py-24 bg-gray-50" id="about">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">About Us</h2>
