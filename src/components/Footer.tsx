@@ -129,7 +129,7 @@ function Footer() {
           >
             <AiOutlineMail className="text-3xl text-black group-hover:text-purple-600 transition-transform transform group-hover:scale-110 duration-300" />
             <span className="text-lg font-semibold group-hover:text-purple-600 transition-colors duration-300">
-              ankitpandey1259@gmail.com
+              madhav@madnismedia.com
             </span>
           </a>
 
@@ -140,7 +140,7 @@ function Footer() {
           >
             <AiOutlinePhone className="text-3xl text-black group-hover:text-purple-600 transition-transform transform group-hover:scale-110 duration-300" />
             <span className="text-lg font-semibold group-hover:text-purple-600 transition-colors duration-300">
-              +91 8858484220
+              +91 8595000523
             </span>
           </a>
         </div>
