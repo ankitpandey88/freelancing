@@ -90,6 +90,7 @@ import GetStarted from './components/GetStarted';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import ServiceDetail from './pages/ServiceDetail';
+import DynamicFeatures from './components/DynamicFeatures';
 
 function App() {
   const phoneNumber = '8858484220'; // Your WhatsApp number
@@ -107,13 +108,15 @@ function App() {
                 <ServicesOverview />
                 <Highlight />
                 <AIMLSection />
-                <ClientsSection />
+             
                 <WhyChooseUs />
+                <DynamicFeatures/>
                 <CoreServices />
                 <AboutUs />
                 {/* <TeamSection /> */}
                 <Technologies />
                 <GetStarted />
+                <ClientsSection />
                 <ContactUs />
               </main>
             }

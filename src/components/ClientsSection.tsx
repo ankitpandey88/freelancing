@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { Star } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const clients = [
   { id: 1, name: "Ravi Sharma", image: "https://randomuser.me/api/portraits/men/1.jpg", opinion: "Excellent software solutions for my startup. Highly recommended!" },
@@ -63,11 +64,20 @@ const ClientsSection = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Priceless Clients</h2>
-          <p className="text-xl text-gray-600">"Our Clients Speak Volumes About Our Success."</p>
-          <div className="w-24 h-1 bg-indigo-600 mx-auto mt-4"></div>
-        </div>
+      <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
+            Our Priceless Clients
+          </h2>
+          <p className="text-xl text-gray-700 font-medium max-w-2xl mx-auto">
+            "Our Clients Speak Volumes About Our Success."
+          </p>
+          <div className="w-32 h-1 bg-gradient-to-r from-indigo-600 to-purple-600 mx-auto mt-6 rounded-full"></div>
+        </motion.div>
 
         {/* Scrollable container with drag functionality */}
         <div
