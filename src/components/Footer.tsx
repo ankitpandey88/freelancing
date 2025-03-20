@@ -309,8 +309,86 @@ function Footer() {
           <p className="text-sm font-medium text-gray-400">
             © {new Date().getFullYear()} No Days Off. All Rights Reserved.
           </p>
+<<<<<<< HEAD
         </motion.div>
       </motion.div>
+=======
+        </div>
+
+        {/* Contact Section */}
+        <div className="flex flex-col lg:flex-row justify-center items-center space-y-4 lg:space-y-0 lg:space-x-6">
+          {/* Email Link */}
+          <a
+            href="mailto:info@elxon.in"
+            className="flex items-center space-x-3 group"
+          >
+            <AiOutlineMail className="text-3xl text-black group-hover:text-purple-600 transition-transform transform group-hover:scale-110 duration-300" />
+            <span className="text-lg font-semibold group-hover:text-purple-600 transition-colors duration-300">
+              madhav@madnismedia.com
+            </span>
+          </a>
+
+          {/* Phone Link */}
+          <a
+            href="tel:+917518588115"
+            className="flex items-center space-x-3 group"
+          >
+            <AiOutlinePhone className="text-3xl text-black group-hover:text-purple-600 transition-transform transform group-hover:scale-110 duration-300" />
+            <span className="text-lg font-semibold group-hover:text-purple-600 transition-colors duration-300">
+              +91 8595000523
+            </span>
+          </a>
+        </div>
+
+        {/* Social Media Section */}
+        <div className="flex space-x-4">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 transition-transform transform hover:scale-125 duration-300 text-3xl"
+          >
+            <FaFacebookF />
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-pink-500 hover:text-pink-700 transition-transform transform hover:scale-125 duration-300 text-3xl"
+          >
+            <FaInstagram />
+          </a>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:text-blue-600 transition-transform transform hover:scale-125 duration-300 text-3xl"
+          >
+            <FaTwitter />
+          </a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-700 hover:text-blue-900 transition-transform transform hover:scale-125 duration-300 text-3xl"
+          >
+            <FaLinkedinIn />
+          </a>
+        </div>
+      </div>
+
+      {/* Decorative Border */}
+      <div className="mt-6 h-1 bg-gradient-to-r from-black via-purple-600 to-black rounded-full shadow-lg"></div>
+
+      {/* Copyright Section */}
+      <div className="mt-6 pt-2 text-center">
+        <p className="text-sm font-medium text-gray-800">
+          &copy; {new Date().getFullYear()}  Nodaysoff. All Rights Reserved.
+        </p>
+      </div>
+
+
+>>>>>>> aac7bffb9d69316ae5e73b29b2e8024450a8a410
     </footer>
   );
 }

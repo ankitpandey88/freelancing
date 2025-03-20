@@ -130,6 +130,7 @@ const Header = () => {
   };
 
   return (
+<<<<<<< HEAD
     <header className="fixed w-full bg-white/95 backdrop-blur-md z-50 shadow-md">
       {/* Top Bar */}
       <div className="bg-gradient-to-r from-purple-700 to-indigo-600 text-white py-3 hidden lg:block">
@@ -161,6 +162,26 @@ const Header = () => {
             <span className="text-xs font-medium">Follow Us:</span>
             <a href="#" className="hover:text-purple-200 transition-colors duration-200">Twitter</a>
             <a href="#" className="hover:text-purple-200 transition-colors duration-200">LinkedIn</a>
+=======
+    <header className="fixed w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
+      <div className="bg-purple-600 text-white py-2 hidden md:block">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center text-sm">
+            <div className="flex items-center space-x-4">
+              <a href="tel:+918858484220" className="flex items-center">
+                <Phone className="h-4 w-4 mr-2" />
+                <span>+91 8595000523</span>
+              </a>
+              <a href="tel:+917014362177" className="flex items-center">
+                <Phone className="h-4 w-4 mr-2" />
+                <span>+91 7014362177</span>
+              </a>
+              <div className="flex items-center">
+                <Mail className="h-4 w-4 mr-2" />
+                <span>madhav@madnismedia.com</span>
+              </div>
+            </div>
+>>>>>>> aac7bffb9d69316ae5e73b29b2e8024450a8a410
           </div>
         </div>
       </div>
